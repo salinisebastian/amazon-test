@@ -7,7 +7,7 @@ describe("Our first suite", () => {
     cy.contains("Hallo, Anmelden").click();
     cy.get('[id="ap_email"]').type("paulissacnew2000@gmail.com");
     cy.get('[aria-labelledby="continue-announce"]').click();
-    cy.get('[id="ap_password"]').type("shirt@pant");
+    cy.get('[id="ap_password"]').type("****");
     cy.get('[id="signInSubmit"]').click();
   });
 
