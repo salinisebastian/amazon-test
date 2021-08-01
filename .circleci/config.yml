@@ -1,1 +1,8 @@
+version: 2.1
 
+jobs:
+
+ steps:
+      - checkout
+  - run:   
+          command: npx cypress run
